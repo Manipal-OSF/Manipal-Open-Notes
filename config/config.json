@@ -1,5 +1,5 @@
 {
-  "projectTitle": "Manipal-Open-Book!",
+  "projectTitle": "Manipal-Open-Book",
   "projectDescription": "You Cum You Get IT",
   "projectURL": "https://",
   "locale": "en",
@@ -24,13 +24,18 @@
       "title": "Home",
       "path": "/intro/index"
     },
-{
-      "title": "NextBook Features",
-      "path": "/nextbook/nextbook-features"
+  {
+      "title": "About",
+      "path": "/about/about-us"
     },
-    {
+ {
       "title": "Reference",
       "path": "/reference/markdown"
+    },    
+
+  {
+      "title": "Discord",
+      "path": "https://discord.gg/8vaNtqxuRA"
     },
     {
       "title": "Github",
@@ -39,40 +44,43 @@
   ],
   "toc": [
     {
-      "chapters": [{ "title": "Welcome to NextBook", "path": "/intro/index" }]
+      "chapters": [{ "title": "Welcome to Manipal-Open-Book", "path": "/intro/index" }]
+    },
+{
+      "chapters": [{ "title": "About", "path": "/about/about-us" }]
     },
     {
-      "part": "Using NextBook",
-      "chapters": [
+      "part": "Notes",
+      "chapters": [ 
         {
-          "title": "NextBook Features",
-          "path": "/nextbook/nextbook-features"
+          "title": "Mechanics Of Solids",
+          "path": "/notes/mos"
         },
         {
-          "title": "Getting Started",
-          "path": "/nextbook/getting-started"
+          "title": "Engineering Mathematics",
+          "path": "/notes/maths"
         },
         {
-          "title": "Settings",
-          "path": "/nextbook/settings"
+          "title": "Engineering Physics",
+          "path": "/notes/physics"
         },
         {
-          "title": "Page Metadata",
-          "path": "/nextbook/page-metadata"
+          "title": "Basic Electronics",
+          "path": "/notes/belelectronics"
         },
         {
-          "title": "In Progress Features",
-          "path": "/nextbook/in-progress-features"
+          "title": "Basic Mechanical Engineering",
+          "path": "/notes/bme"
         }
       ]
     },
     {
       "part": "Reference",
       "chapters": [
-        { "title": "Markdown Usage", "path": "/reference/markdown" },
-        { "title": "Fenced Code Usage", "path": "/reference/fencedcode" },
-        { "title": "Using MDX", "path": "/reference/using-mdx" }
-]
+        { "title": "Books", "path": "/books" },
+        { "title": "Courses", "path": "/courses" },
+        { "title": "Discord", "path": "https://discord.gg/8vaNtqxuRA" }
+      ]
     }
   ]
 }
